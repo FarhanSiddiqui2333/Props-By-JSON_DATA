@@ -33,24 +33,29 @@ const Card = (props) => {
             </div>
 
             <div className="others flex items-center justify-between my-5">
+
                 <div className='text-center w-12 h-12 p-0.5 rounded-full'>
                     <img src={props.oth_pro[0].profile} alt="" className='h-full w-full border border-white rounded-full' />
                     <p style={{ fontSize: '9px', padding: '5px 0px', lineHeight: '12px' }}>{props.oth_user[0].userName}</p>
                 </div>
+
                 <div className='text-center w-12 h-12 p-0.5 rounded-full'>
                     <img src={props.oth_pro[1].profile} alt="" className='h-full w-full border border-white rounded-full' />
                     <p style={{ fontSize: '9px', padding: '5px 0px', lineHeight: '12px' }}>{props.oth_user[1].userName}</p>
                 </div>
+
                 <div className='text-center w-12 h-12 p-0.5 rounded-full'>
                     <img src={props.oth_pro[2].profile} alt="" className='h-full w-full border border-white rounded-full' />
                     <p style={{ fontSize: '9px', padding: '5px 0px', lineHeight: '12px' }}>{props.oth_user[2].userName}</p>
                 </div>
+
                 <div className='text-center w-12 h-12 p-0.5 rounded-full'>
                     <img src={props.oth_pro[3].profile} alt="" className='h-full w-full border border-white rounded-full' />
                     <p style={{ fontSize: '9px', padding: '5px 0px', lineHeight: '12px' }}>{props.oth_user[3].userName}</p>
                 </div>
+                
             </div>
-            
+
         </div>
     )
 }
