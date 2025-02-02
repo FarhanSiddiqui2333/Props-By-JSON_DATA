@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+
+body {
+    background-color: rgb(15, 18, 32);
+    height: 100vh;
+    width: 100%;
+}
+
+.img {
+    background: linear-gradient(to top right, rgb(255, 115, 0), rgb(153, 0, 255));
+    height: 70px;
+    width: 70px;
+    padding: 3px;
+}
+
+.others div {
+    background: linear-gradient(to top right, rgb(255, 115, 0), rgb(153, 0, 255));
+
+}
+
+.img img {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.slider {
+    overflow-x: scroll;
+    align-items: center;
+    translate: 0% 35%;
+}
+
+.slider::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top right, rgb(255, 115, 0), rgb(153, 0, 255));
+    border-radius: 50px;
+    cursor: pointer;
+}
