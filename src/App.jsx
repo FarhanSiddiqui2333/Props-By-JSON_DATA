@@ -182,7 +182,7 @@ const App = () => {
     {
       userName: 'Sana Jutt',
       profilePhoto: Img7,
-      post: '15k',
+      post: '1.5k',
       followers: '50k',
       following: '100',
       Name: "Sana",
