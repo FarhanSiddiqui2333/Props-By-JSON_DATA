@@ -301,6 +301,7 @@ const App = () => {
           desc={item.descrip}
           oth_user={item.secondryProfile}
           oth_pro={item.secondryProfile}
+          
           key={indx}
         />
         )
